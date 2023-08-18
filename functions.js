@@ -6,4 +6,7 @@ function varParaArrow (){
   //Alert com o resultado
 }
 
-module.exports = { varParaArrow }
+
+let  greeting = name => `oi, ${name}`;
+
+module.exports = { varParaArrow, greeting }
