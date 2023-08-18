@@ -7,6 +7,10 @@ function varParaArrow (){
 }
 
 
-let  greeting = name => `oi, ${name}`;
+let  greeting = name =>{ 
+  name = "sr. "+name;
+  return `oi, ${name}`;
+  //com uma linha, presume-se que a linha em questão já é o retorno
+}
 
 module.exports = { varParaArrow, greeting }
