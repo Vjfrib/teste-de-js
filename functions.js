@@ -13,4 +13,7 @@ let  greeting = name =>{
   //com uma linha, presume-se que a linha em questão já é o retorno
 }
 
-module.exports = { varParaArrow, greeting }
+let  greetingInformal = name => `oi, ${name}!`;
+  //com uma linha, muito simples
+
+module.exports = { varParaArrow, greeting, greetingInformal }
